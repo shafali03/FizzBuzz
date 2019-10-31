@@ -1,13 +1,23 @@
 def fizzbuzz(number)
-  if   number % 15 == 0
+  if fizz(number) and buzz(number)
     'fizzbuzz'
   elsif
-    number % 5 == 0
+    buzz(number)
     'buzz'
   elsif
-    number % 3 == 0
+    fizz(number)
       'fizz'
   else
   number
   end
+end
+
+
+
+def fizz(number)
+ number % 3 == 0
+end
+
+def buzz(number)
+  number % 5 == 0
 end
