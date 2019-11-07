@@ -1,8 +1,8 @@
 # Fizzbuzz
 
-## The objective of this challenge is to create a Fizzbuzz program with a pair. The goal of FizzBuzz is to introduce to Test Driven Development and pair programming.  
+The objective of this challenge is to create a Fizzbuzz program with a pair. The goal of FizzBuzz is to introduce to Test Driven Development and pair programming.  
 
-## What is Fizzbuzz?  
+What is Fizzbuzz?  
 
 * When passed a number that is a multiple of 3, the program will return the message Fizz.  
 * When passed a number that is a multiple of 5, the program will return the message Buzz.
